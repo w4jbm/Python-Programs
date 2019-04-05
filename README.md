@@ -16,7 +16,7 @@ Typically I will plug these points into one of the various radio frequency (RF) 
 
 ## And the fine print...
 
-To the extent applicable, all writeups, code, and other material in this repository is:
+To the extent applicable, all code and other material in this repository is:
 
 Copyright 2019 by James McClanahan and made available under the terms of The MIT License.
 
