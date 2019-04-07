@@ -4,7 +4,7 @@ These are various programs written in Python. Some are actually useful (at least
 
 ## findbjct.py
 
-A simple program to generate a map and plot two points (Bowdon Junction, GA, where I now live and Ovwasso, OK, where I grew up). Nothing fancy, but maybe the starting point for something more elaborate down the road.
+Finding Bowdon Junction is a simple program to generate a map and plot two points (Bowdon Junction, GA, where I now live and Ovwasso, OK, where I grew up). Nothing fancy, but maybe the starting point for something more elaborate down the road.
 
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/findbjct.png "Finding Bowdon Junction")
 
