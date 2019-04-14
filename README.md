@@ -2,6 +2,13 @@
 
 These are various programs written in Python. Some are actually useful (at least to me) while others are just examples of tinkers to see how certaint things work or can be implemented.
 
+## autobins.py
+
+A sample program with a routine that will automatically compute the values needed to divide a list into a given number of bins and plot the result.
+
+![alt text](https://github.com/w4jbm/Python-Programs/raw/master/autobins.png "Example of autobins.py")
+
+
 ## filecopy.py
 
 Just a simple, four-line program that copies `infile.txt` to `outfile.txt`, but something I end up using as a starting point fairly frequently. Usually I end up adding a bit of conditional checking of the input line to pull certain lines from a larger file. (Handy when a command line tool like sed isn't around.)
