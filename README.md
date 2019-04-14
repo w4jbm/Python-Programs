@@ -14,6 +14,13 @@ Finding Bowdon Junction is a simple program to generate a map and plot two point
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/findbjct.png "Finding Bowdon Junction")
 
 
+## mapcnty.py
+
+Create a choropleth centered on Carroll County, GA, with the surrounding counties also colored. Makes use of FIPS codes to identify counties.
+
+![alt text](https://github.com/w4jbm/Python-Programs/raw/master/CarrollCountyChoropleth.png "Carroll County Choropleth")
+
+
 ## RingLtLn.py
 
 RingLtLn is a program that generates the latitude and longitude of "rings" at some distance away from a central coordinate.
