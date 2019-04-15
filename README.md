@@ -11,7 +11,7 @@ A sample program with a routine that will automatically compute the values neede
 
 ## filecopy.py
 
-Just a simple, four-line program that copies `infile.txt` to `outfile.txt`, but something I end up using as a starting point fairly frequently. Usually I end up adding a bit of conditional checking of the input line to pull certain lines from a larger file. (Handy when a command line tool like sed isn't around.)
+Just a simple, four-line program that copies `infile.txt` to `outfile.txt`, but something I end up using as a starting point fairly frequently. Usually I will add a bit of conditional checking of the input line to pull certain lines from a larger file. (Handy when a command line tool like `sed` isn't around.)
 
 
 ## findbjct.py
