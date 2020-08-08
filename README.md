@@ -51,6 +51,13 @@ After the changes, you should see a result like this:
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/popbyzip/popbyzip.png)
 
 
+## rbow.py, helix,py, and square.py
+
+Some tinkering with turtle graphics.
+
+![alt text](https://github.com/w4jbm/Python-Programs/raw/master/rbow.jpg)
+
+
 ## RingLtLn.py
 
 RingLtLn is a program that generates the latitude and longitude of "rings" at some distance away from a central coordinate.
