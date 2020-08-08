@@ -28,6 +28,29 @@ Create a choropleth centered on Carroll County, GA, with the surrounding countie
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/CarrollCountyChoropleth.png "Carroll County Choropleth")
 
 
+## popbyzip
+
+This directory contains a program that plots a "heat map" of population by county. It started with code by James Triveri found here:
+
+http://www.jtrive.com/visualizing-population-density-by-zip-code-with-basemap.html
+
+I had a couple of problems as I worked with it including a few typos and finding a zip code data file (2017 was used in the original, but I was only able to find 2016 and that took a bit of looking). The census boundary zip file should be unzipped after being downloaded here:
+
+http://www2.census.gov/geo/tiger/GENZ2016/shp/cb_2016_us_zcta510_500k.zip
+
+Also, if you don't have mapbase you'll have to install it:
+
+```
+pip install --upgrade --user matplotlib numpy pyproj pyshp OWSLib Pillow 
+sudo apt-get update 
+sudo apt install libgeos-dev 
+pip install --user https://github.com/matplotlib/basemap/archive/master.zip
+```
+After the changes, you should see a result like this:
+
+![alt text](https://github.com/w4jbm/Python-Programs/popbyzip/popbyzip.png)
+
+
 ## RingLtLn.py
 
 RingLtLn is a program that generates the latitude and longitude of "rings" at some distance away from a central coordinate.
