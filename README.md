@@ -30,7 +30,7 @@ Create a choropleth centered on Carroll County, GA, with the surrounding countie
 
 ## popbyzip
 
-This directory contains a program that plots a "heat map" of population by county. It started with code by James Triveri found here:
+This directory contains a program that plots a "heat map" of population by zip code. It started with code by James Triveri found here:
 
 http://www.jtrive.com/visualizing-population-density-by-zip-code-with-basemap.html
 
