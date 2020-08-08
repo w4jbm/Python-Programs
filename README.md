@@ -58,7 +58,7 @@ Some tinkering with turtle graphics.
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/rbow.jpg)
 
 
-## RingLtLn.py
+## RingLtLn.py, PBndBx.py, and Map_Ring.py
 
 RingLtLn is a program that generates the latitude and longitude of "rings" at some distance away from a central coordinate.
 
@@ -68,6 +68,14 @@ This program will generate a certain number of rings (set by the variable *rings
 
 Typically I will plug these points into one of the various radio frequency (RF) modeling tools I use and create paths from the center point to each point on each ring. Although not as detailed as something like a coverage heatmap, it is sometimes useful to be able to quantify that x% of points would have coverage.
 
+You can copy these into a text file to create a .csv file for import to other tools. To show the results, you can use PBndBx.py to print the boundary of the lat/long data and the export a map in .png format to use as a background from:
+
+ https://www.openstreetmap.org/
+ 
+ Tweak the boundary settings in Map_Ring.py and you can plot the results on a map that looks something like this:
+ 
+![alt text](https://github.com/w4jbm/Python-Programs/raw/master/ring.png)
+ 
 
 ## And the fine print...
 
