@@ -48,7 +48,7 @@ pip install --user https://github.com/matplotlib/basemap/archive/master.zip
 ```
 After the changes, you should see a result like this:
 
-![alt text](https://github.com/w4jbm/Python-Programs/popbyzip/popbyzip.png)
+![alt text](https://github.com/w4jbm/Python-Programs/raw/master/popbyzip/popbyzip.png)
 
 
 ## RingLtLn.py
