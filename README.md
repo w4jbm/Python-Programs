@@ -51,6 +51,35 @@ After the changes, you should see a result like this:
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/popbyzip/popbyzip.png)
 
 
+## Prime Numbers
+
+Just about anyone who has worked with a number of programming languages will say that Python is more finicky about spacing and whitespace than many other languages. This can lead to confusion if spaces are lost or get out of whack along the way. There is a fairly popular site that contained the following example of how prime numbers could be generated:
+
+```
+for x in range(1,101):
+for y in range(2,x):
+if x%y==0:break
+else:
+print (x,sep=' ', end=' ')
+```
+
+The output was supposed to show a list of primes, but it doesn't work because of indentation issues. Going in, I knew that the whitespace had disappeared somewhere along the path. I'll admit that it was finding the proper whitespace related to the ```else``` and ```print``` statements that took some thinking before I finally settled on the following:
+
+```
+for x in range(1,101):
+    for y in range(2,x):
+        if x%y==0:break
+    else:
+        print (x, sep=' ', end=' ')
+```
+
+With this, you will get the following output:
+
+```1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 ```
+
+The plethera of online examples, some of which are right and some of which are wrong, turns out to be both a strength and weakness for people 
+
+
 ## rbow.py, helix,py, and square.py
 
 Some tinkering with turtle graphics.
