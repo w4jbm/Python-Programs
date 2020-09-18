@@ -28,6 +28,19 @@ Create a choropleth centered on Carroll County, GA, with the surrounding countie
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/CarrollCountyChoropleth.png "Carroll County Choropleth")
 
 
+## picrunch.py
+
+One of the things I've tinkered with in various langauges (6502 assembly and BASIC many years ago as well as FORTRAN) is calculating the value of pi out to fairly large numbers of decimal places. I could do a few hundred digits overnight way back when, but always had the desire to calculate it to one million decimal places. I came across a Python program that did just that.
+
+That program looked like it might have started life under Python2 but ran fine under Python3. I made some minor changes including adding a timer to the program. The results are dumped to a file. You can also specify an arbitrary number of decimal places to calculated out to. It also takes command line arguements and was the first Python program where I had worked with that feature--it's something I expect will be handy.
+
+To run the program, just type:
+
+```./picrunch.py 1000000 pi.txt```
+
+That will run one million digits out to a text file and take a while (around a half hour on my machine) to execute.
+
+
 ## popbyzip
 
 This directory contains a program that plots a "heat map" of population by zip code. It started with code by James Triveri found here:
