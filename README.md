@@ -2,6 +2,8 @@
 
 These are various programs written in Python. Some are actually useful (at least to me) while others are just examples of tinkers to see how certaint things work or can be implemented.
 
+From a pure math perspective, three things I have always enjoyed tinkering with is calculating pi to a significant number of digits (the sample here can go to one million digits in less than 30 minutes), calculating e to a significant number of digits (the program here can go to at least 1,000 digits in 20 milliseconds), and calculating large factorials (the program here can calculate 1000! in under a millisecond).
+
 
 ## autobins.py
 
@@ -92,6 +94,13 @@ With this, you will get the following output:
 ```1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 ```
 
 The plethera of online examples, some of which are right and some of which are wrong, turns out to be both a strength and weakness for people 
+
+
+## pye.py
+
+This program calculates Euler's number (e) out to at least 1,000 decimal places. I haven't verified the results past that but it is definately fast enough (taking well under 20 milliseconds at this point) to push that out further.
+
+You get a warning if you go beyond 1,000 places and there are "check values" you can print out for 100 and 1,000 places.
 
 
 ## pyfact.py
