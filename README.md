@@ -2,6 +2,7 @@
 
 These are various programs written in Python. Some are actually useful (at least to me) while others are just examples of tinkers to see how certaint things work or can be implemented.
 
+
 ## autobins.py
 
 A sample program with a routine that will automatically compute the values needed to divide a list into a given number of bins and plot the result.
@@ -91,6 +92,15 @@ With this, you will get the following output:
 ```1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 ```
 
 The plethera of online examples, some of which are right and some of which are wrong, turns out to be both a strength and weakness for people 
+
+
+## pyfact.py
+
+This program accepts a command line argument and calculates the factorial of it. Years ago a friends nephew was given the assignment of calculate 100! (although it was worded along the lines of "multiply all of the numbers between 1 and 100 together"). It was a homework bonus question.
+
+I quickly hacked together a BASIC program to calculate it using regular floating point math, but the teacher then said that all digits needed to be shown. (There are 158 digits in 100!.) I hacked together another BASIC program using an array to hold integer values.
+
+But I have to admit it was much easier to do in Python using arbitary length integers. (And it runs much faster than it did on my PC in the mid-1990s.)
 
 
 ## rbow.py, helix,py, and square.py
