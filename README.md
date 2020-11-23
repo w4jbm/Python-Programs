@@ -24,6 +24,15 @@ Finding Bowdon Junction is a simple program to generate a map and plot two point
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/findbjct.png "Finding Bowdon Junction")
 
 
+## getimg.py
+
+This program uses the Bing search engine and will download the results of an image search. When I'm looking for clip art or an illustrive picture, I have better luck downloading them and picking out one from the local copy of the results. This makes it easier to seperate out things like thumbnails or pictures on sites that aren't going to let you download them. Use is fairly simple:
+
+`./getimg.py blue sportscars`
+
+The program stores the downloaded images in timestamped subdirectories. This can actually be tweaked to do some interesting things like get the top 10 image search results for something like 'fashion hats' (just picking an example) with a cron job and seeing how they change week by week. The number of results and some other parameters can be easily changed.
+
+
 ## mapcnty.py
 
 Create a choropleth centered on Carroll County, GA, with the surrounding counties also colored. Makes use of FIPS codes to identify counties.
