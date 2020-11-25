@@ -5,6 +5,16 @@ These are various programs written in Python. Some are actually useful (at least
 From a pure math perspective, three things I have always enjoyed tinkering with is calculating pi to a significant number of digits (the sample here can go to one million digits in less than 30 minutes), calculating e to a significant number of digits (the program here can go to at least 1,000 digits in 20 milliseconds), and calculating large factorials (the program here can calculate 1000! in under a millisecond).
 
 
+## armstrong.py
+
+This program runs through a range and determines which numbers in that range are Armstrong Numbers (also referred to as Narcissistic Numbers). An Armstrong Number has the property of equaling the sum of its individual digits raised to the power of the number of digits.
+
+Some examples include:
+* 7 = 7^1
+* 371 = 3^3 + 7^3 + 1^3
+* 1634 = 1^4 + 6^4 + 3^4 + 4^4
+
+
 ## autobins.py
 
 A sample program with a routine that will automatically compute the values needed to divide a list into a given number of bins and plot the result.
