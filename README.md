@@ -14,6 +14,8 @@ Some examples include:
 * 371 = 3^3 + 7^3 + 1^3
 * 1634 = 1^4 + 6^4 + 3^4 + 4^4
 
+There are only 89 narcissistic numbers in Base 10, the largest of which is 115,132,219,018,763,992,565,095,597,973,971,522,401 which has 39 digits.
+
 
 ## autobins.py
 
