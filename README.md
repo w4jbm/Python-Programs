@@ -44,8 +44,8 @@ It is assumed that the year is the 'long' side of the triangle. If you don't ass
 
 If you are interested in the results but don't want to have to run the program, here are the hypotonuse dates for the early 21st century:
 
-3-4-5
-4-3-5
+3-4-5\
+4-3-5\
 6-8-10
 8-6-10
 5-12-13
