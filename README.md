@@ -16,6 +16,10 @@ Some examples include:
 
 There are only 89 narcissistic numbers in Base 10, the largest of which is 115,132,219,018,763,992,565,095,597,973,971,522,401 which has 39 digits.
 
+The approach I use is mostly "Brute Force" and would likely bog down once you get to number too high in order. Calculating a single digit raised to the 39th power 39 times (once for each digit) starts adding up. Doing that for all numbers with 39 digits would take some time.
+
+On the other hand, if I want to search for Armstrong numbers with 39 digits, it would be easier to calculated the digits 0 through 9 to the 39th power once (and 0 and 1 are trival in any case) and save them. Then you could evaluate each 39 digit number with only 39 additions. (Although true integer math is going to start falling part at 9 or so digits in a lot of languages, so you might need to get creative in the approach.)
+
 
 ## autobins.py
 
