@@ -55,7 +55,7 @@ If you are interested in the results but don't want to have to run the program, 
 8-15-17\
 12-16-20\
 7-24-25\
-10-24-26\
+10-24-26
 
 
 ## mapcnty.py
