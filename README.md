@@ -20,6 +20,10 @@ The approach I use is mostly "Brute Force" and would likely bog down once you ge
 
 On the other hand, if I want to search for Armstrong numbers with 39 digits, it would be easier to calculated the digits 0 through 9 to the 39th power once (and 0 and 1 are trival in any case) and save them. Then you could evaluate each 39 digit number with only 39 additions. (Although true integer math is going to start falling part at 9 or so digits in a lot of languages, so you might need to get creative in the approach.)
 
+One other efficiency that comes to mind is that we don't have to calculate for a specific number but can, instead, calculate for a combination of digits. For example, if we check whether a 1, a 3, and a 5 could create an Armstrong Number, we get the result 153 from the addition. We now have an Armstrong number (because the result is 3 digits and made up from the three digits we used for the test), but we also know (because of the cummutative property of addition) that 135, 315, 351, 513, and 531 are all NOT Armstrong Numbers (because the cube of their digits will summ to 153). This means that testing 3 single digits gave us a result that held true for 3! (3 * 2 * 1, or 6) numbers.
+
+So if we could get rid of repeated exponetial calculations and come up with a way to check sets of digits, we should be able to find an approach to calculating Armstrong Numbers that is much, much faster than the brute force approach.
+
 
 ## autobins.py
 
