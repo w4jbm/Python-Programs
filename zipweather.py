@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-
+#
+# zipweather.py - Get the current weather conditions for a given zip code
+#
+# Cobbled together by Jim McClanahan, W4JBM (Dec 2020)
+#
 # Based on example from here:
 # https://www.geeksforgeeks.org/python-find-current-weather-of-any-city-using-openweathermap-api/
 #
