@@ -191,6 +191,21 @@ You can copy these into a text file to create a .csv file for import to other to
  
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/ring.png)
  
+ 
+ ## zipweather.py
+ 
+ This started off as a simple cut and paste project that gathered some weather info from the free service at openweathermap. I made a number of changes and additions:
+ 
+ * It uses the zip code instead of a city name.
+ * The zip code can either be coded or you can enter it on the command line.
+ * I print the city name and timestamp for the information.
+ * Presure is in inches of Mercury.
+ * I now gather wind and print wind direction in cardinal direction.
+ 
+ I've been doing a lot of mathmatically oriented stuff with Python and wanted to branch out a bit with this.
+ 
+ You will need to register and get a key that can be entered into the program for things to work.
+ 
 
 ## And the fine print...
 
