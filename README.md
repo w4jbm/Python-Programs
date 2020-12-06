@@ -88,6 +88,11 @@ If you are interested in the results but don't want to have to run the program, 
 This number evaluates the sequence of calculcations related to Kaprekar numbers. It will converge to a Kaprekar number, a loop of numbers, or a zero depending on the value provided.
 
 
+## largeprime.py
+
+Calcuates large (1024 bit) prime numbers by random number generation and then using several iterations of the Miller-Rabin to see if the test returns a 'witness' that the number might be composite. Not a perfect or fast approach, but it is fairly reliable and straightforward to implement.
+
+
 ## mapcnty.py
 
 Create a choropleth centered on Carroll County, GA, with the surrounding counties also colored. Makes use of FIPS codes to identify counties.
