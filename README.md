@@ -32,6 +32,11 @@ A sample program with a routine that will automatically compute the values neede
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/autobins.png "Example of autobins.py")
 
 
+## factors.py
+
+Finds and prints the factors of a number given as a command line argument.
+
+
 ## filecopy.py
 
 Just a simple, four-line program that copies `infile.txt` to `outfile.txt`, but something I end up using as a starting point fairly frequently. Usually I will add a bit of conditional checking of the input line to pull certain lines from a larger file. (Handy when a command line tool like `sed` isn't around.)
@@ -76,6 +81,11 @@ If you are interested in the results but don't want to have to run the program, 
 12-16-20\
 7-24-25\
 10-24-26
+
+
+## kaprekar.py
+
+This number evaluates the sequence of calculcations related to Kaprekar numbers. It will converge to a Kaprekar number, a loop of numbers, or a zero depending on the value provided.
 
 
 ## mapcnty.py
