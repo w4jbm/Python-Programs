@@ -113,6 +113,11 @@ To run the program, just type:
 That will run one million digits out to a text file and take a while (around a half hour on my machine) to execute.
 
 
+## McNuggetNum.py
+
+Just a 'cute' puzzle to find what number of McNuggets you can't get by combining orders of 6, 9, or 20 pieces. It turns out that the largest McNugget Number is 43. (Although we just go up to 100, but you can easily change this in the code.)
+
+
 ## popbyzip
 
 This directory contains a program that plots a "heat map" of population by zip code. It started with code by James Triveri found here:
