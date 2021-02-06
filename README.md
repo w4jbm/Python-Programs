@@ -212,6 +212,11 @@ You can copy these into a text file to create a .csv file for import to other to
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/ring.png)
  
  
+ ## sudoku_solver.py
+ 
+ This is a bit of hacked together code as I've tried to get someone else's 6502 assembly language code running on one of my 6502 systems. Bits and pieces from a couple of different sources that I didn't do a good job of keeping track of. :-(
+ 
+ 
  ## zipweather.py
  
  This started off as a simple cut and paste project that gathered some weather info from the free service at openweathermap. I made a number of changes and additions:
