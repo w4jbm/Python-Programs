@@ -32,6 +32,11 @@ A sample program with a routine that will automatically compute the values neede
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/autobins.png "Example of autobins.py")
 
 
+## bubblesort.py
+
+A simple integer Bubble Sort function demonstrated by creating a list of ten random integers, sorting them, printing them, and also printing them backwards (for no particular reason).
+
+
 ## factors.py
 
 Finds and prints the factors of a number given as a command line argument.
@@ -205,21 +210,26 @@ Typically I will plug these points into one of the various radio frequency (RF) 
 
 You can copy these into a text file to create a .csv file for import to other tools. To show the results, you can use PBndBx.py to print the boundary of the lat/long data and the export a map in .png format to use as a background from:
 
- https://www.openstreetmap.org/
+https://www.openstreetmap.org/
  
- Tweak the boundary settings in Map_Ring.py and you can plot the results on a map that looks something like this:
+Tweak the boundary settings in Map_Ring.py and you can plot the results on a map that looks something like this:
  
 ![alt text](https://github.com/w4jbm/Python-Programs/raw/master/ring.png)
  
  
- ## sudoku_solver.py
+## sudoku_solver.py
  
- This is a bit of hacked together code as I've tried to get someone else's 6502 assembly language code running on one of my 6502 systems. Bits and pieces from a couple of different sources that I didn't do a good job of keeping track of. :-(
+This is a bit of hacked together code as I've tried to get someone else's 6502 assembly language code running on one of my 6502 systems. Bits and pieces from a couple of different sources that I didn't do a good job of keeping track of. :-(
  
+
+## watchpoints_example
+
+A short program showing use of the watchpoints library and functionality. This could be handy for troubleshooting why a variable is (or isn't) taking on the expected value.
+
+
+## zipweather.py
  
- ## zipweather.py
- 
- This started off as a simple cut and paste project that gathered some weather info from the free service at openweathermap. I made a number of changes and additions:
+This started off as a simple cut and paste project that gathered some weather info from the free service at openweathermap. I made a number of changes and additions:
  
  * It uses the zip code instead of a city name.
  * The zip code can either be coded or you can enter it on the command line.
@@ -227,16 +237,16 @@ You can copy these into a text file to create a .csv file for import to other to
  * Presure is in inches of Mercury.
  * I now gather wind and print wind direction in cardinal direction.
  
- I've been doing a lot of mathmatically oriented stuff with Python and wanted to branch out a bit with this.
+I've been doing a lot of mathmatically oriented stuff with Python and wanted to branch out a bit with this.
  
- You will need to register and get a key that can be entered into the program for things to work.
+You will need to register and get a key that can be entered into the program for things to work.
  
 
 ## And the fine print...
 
 To the extent applicable, all code and other material in this repository is:
 
-Copyright 2019-2020 by James McClanahan and made available under the terms of The MIT License.
+Copyright 2019-2022 by James McClanahan and made available under the terms of The MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
