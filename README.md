@@ -41,6 +41,13 @@ A simple integer Bubble Sort function demonstrated by creating a list of ten ran
 
 Finds and prints the factors of a number given as a command line argument.
 
+## factors-les-than (approaches 1 and 2)
+
+These are two programs that answer the question, "What percentage of positive integers have at least one factor that is less than some value?"
+
+For example, what percentage of integers have at least one factor less than 6? It turns out to be 73.33%.
+
+The approach in factors-less-than1.py uses probability calculations and runs fast for most reasonable values. The approach in factors-less-than2.py is more of a brute force approach that actually sets up a range and tests individual values in that range for divisability by one of the primes below the limit of interest. The second program isn't that useful on my computer at values of 23 or higher (factors up to 19), but the results match up between the two which is what I set out to do.
 
 ## filecopy.py
 
