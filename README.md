@@ -37,6 +37,12 @@ A sample program with a routine that will automatically compute the values neede
 A simple integer Bubble Sort function demonstrated by creating a list of ten random integers, sorting them, printing them, and also printing them backwards (for no particular reason).
 
 
+## centroid.py
+
+This program find the centroid of a triange by taking two lines that originate at corners and run to the mid-point of the side opposite of them. This was a puzzle posed in the Facebook "not just tiny-c programming" group. This should work for any triangle you specify, but the specific one originally solved for is the one below:
+
+![Centroid Example](https://github.com/w4jbm/Python-Programs/blob/833b885895d8b6f093371ce3d2608e4b7b43a044/centroid_plot.jpg)
+
 ## factors.py
 
 Finds and prints the factors of a number given as a command line argument.
