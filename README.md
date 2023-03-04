@@ -43,6 +43,20 @@ This program find the centroid of a triange by taking two lines that originate a
 
 ![Centroid Example](https://github.com/w4jbm/Python-Programs/blob/833b885895d8b6f093371ce3d2608e4b7b43a044/centroid_plot.jpg)
 
+
+## dice.py
+
+This solves the following puzzle:
+
+Katy places three identical standard dice in a row on a table-top, leaving just eleven faces and an odd number of pips visible.
+
+Taking each face as a digit (with the number of pips representing the number), from the front Katy can read a three-digit number along the vertical faces of the dice and another three-digit number along the top. If Katy goes to the opposite side of the table, she can read a three-digit number along the vertical faces and another three-digit number along the top.
+
+Of the four three-digit numbers Katy read, two are primes and two are different perfect squares.
+
+What four three-digit numbers does Katy see? (Two from the front and two from the back.)
+
+
 ## factors.py
 
 Finds and prints the factors of a number given as a command line argument.
