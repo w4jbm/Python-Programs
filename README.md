@@ -234,6 +234,24 @@ Tweak the boundary settings in Map_Ring.py and you can plot the results on a map
  
 This is a bit of hacked together code as I've tried to get someone else's 6502 assembly language code running on one of my 6502 systems. Bits and pieces from a couple of different sources that I didn't do a good job of keeping track of. :-(
  
+ 
+## sum_of_two_cubes.py
+ 
+This started as a look at an [article](https://www.scientificamerican.com/article/the-most-boring-number-in-the-world-is/) that said 1,729 was the smallest number that could be expressed as the sum of two cubes in two different ways.
+
+Indeed, I found that:\
+1,729 = 1^3 + 12^3 and 9^3 + 10^3
+
+Also the next higher value seems to be:\
+4,104 = 2^3 + 16^3 and 9^3 + 15^3
+
+But... I also realized that is was only looking at positive results and using positive integers. Even limiting things to positive, non-zero (there are an infinite number of solutions for a zero value), it turns out that:\
+728 = -10^3 + 12^3 and -1^3 + 9^3
+
+The results are also interesting in that in the first solution for 1,729, we add 1,000 and add 1 to the same numbers that in the negative-going solution we subtract 1 and subtract 1,000 from.
+
+It might also be interesting to look at squares or things raised to the fourth power.
+
 
 ## watchpoints_example
 
