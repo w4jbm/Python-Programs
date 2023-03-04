@@ -15,7 +15,7 @@
 # Note: The above assumes only positive integers being cubed, but the
 # algorith can handle negative integers. The smallest positive, non-zero
 # integer that can be represented by two different sums of cubes is actually:
-# 728 = -10^3 + 12^3 and -1^3 + 9^9.
+# 728 = -10^3 + 12^3 and -1^3 + 9^3.
 
 # You do not need to go higher than 20 to find at least two solutions.
 i_min = 1
