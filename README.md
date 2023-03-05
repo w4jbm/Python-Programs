@@ -264,7 +264,13 @@ But... I also realized that is was only looking at positive results and using po
 
 The results are also interesting in that in the first solution for 1,729, we add 1,000 and add 1 to the same numbers that in the negative-going solution we subtract 1 and subtract 1,000 from.
 
-It might also be interesting to look at squares or things raised to the fourth power.
+There is also a program sum_of_two_squares.py which looks at squares in a similar fashion. With squares, the values can be either negative or positive and are cancelled out when squared. So for the sum of squares 5 = 1^2 + 2^2, you can change the signs (of the 1 and/or the 2) to make this be the smallest result when looking at range like -10 to +10.
+
+Ignoring that trival case and sticking with positive, non-zero integers, we have:\
+65 = 1^2 + 8^2 and 4^2 + 7^2.
+
+The second highest result is:\
+85 = 2^2 + 9^2 and 6^2 + 7^2.
 
 
 ## watchpoints_example
