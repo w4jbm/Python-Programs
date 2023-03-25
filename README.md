@@ -44,6 +44,12 @@ This program find the centroid of a triange by taking two lines that originate a
 ![Centroid Example](https://github.com/w4jbm/Python-Programs/blob/833b885895d8b6f093371ce3d2608e4b7b43a044/centroid_plot.jpg)
 
 
+## Cistercian.py
+
+This program will take an argument from the command line (between 0 and 9999) and create a [Cistercian Number](https://en.wikipedia.org/wiki/Cistercian_numerals) image for it. Here is an example result for the number 1963:
+
+![Cistercian Example 1963](https://github.com/w4jbm/Python-Programs/raw/master/Cistercian_1963.png)
+
 ## dice.py
 
 This solves the following puzzle:
